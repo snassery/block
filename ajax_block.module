@@ -3,7 +3,7 @@
 /**
  * Implements hook_menu().
  */
-function ajax_lblock_menu() {
+function ajax_block_menu() {
   $items = array();
 
   $items['ajax-test'] = array(
@@ -44,7 +44,7 @@ function ajax_block_page() {
 /**
  * Ajax callback to display the current time.
  */
-function ajax_link_callback($ajax) {
+function ajax_block_callback($ajax) {
   // Do any database queries, processing, etc.
   $time = t('The user last logged in at : !time', array('!time' => date('Y-m-d H:i:s')));
 
