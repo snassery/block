@@ -1,0 +1,5 @@
+name = "Ajax block"
+description = "A simple Ajax block example"
+core = 7.x
+version = 7.x-1.0
+scripts[] = ajax_link.js
